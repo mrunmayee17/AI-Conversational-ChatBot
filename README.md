@@ -1,9 +1,10 @@
-# AI-Conversational-ChatBot
-# Food Recommendation Chatbot
-<img width="1431" alt="Screenshot 2023-11-07 at 3 08 20 AM" src="https://github.com/mrunmayee17/AI-Conversational-ChatBot/assets/48186569/d534e3d2-5842-48af-a180-cde9547ac069">
+# AI Conversational Food Recommendation ChatBot
 
 ## Overview
 This Food Recommendation Chatbot is designed to provide restaurant suggestions based on user preferences and location. It utilizes natural language processing and geocoding to offer a seamless and interactive experience to users.
+
+<img width="1431" alt="Screenshot 2023-11-07 at 3 08 20 AM" src="https://github.com/mrunmayee17/AI-Conversational-ChatBot/assets/48186569/d534e3d2-5842-48af-a180-cde9547ac069">
+
 
 ## Features
 - Conversational Interaction: Engage with users in a natural, conversational manner.
