@@ -1,45 +1,4 @@
 # AI-Conversational-ChatBot
-
-# Food Recommendation Chatbot
-
-## Overview
-This Food Recommendation Chatbot is designed to provide restaurant suggestions based on user preferences and location. It utilizes natural language processing and geocoding to offer a seamless and interactive experience to users.
-
-## Features
-- Conversational Interaction: Engage with users in a natural, conversational manner.
-- Location-Based Recommendations: Provide restaurant suggestions near the user's current location.
-- NLP for User Input Processing: Analyze and interpret user requests using advanced NLP techniques.
-
-## Dependencies
-To run this chatbot, the following Python libraries are required:
-- streamlit
-- transformers
-- sentence_transformers
-- pandas
-- numpy
-- pickle
-- nltk
-- geopy
-
-## Installation
-1. Install Python 3.x from the official website.
-2. Install the necessary packages using pip:
-   ```bash
-   pip install streamlit transformers sentence_transformers pandas numpy pickle nltk geopy
-
-
-
-ChatGPT
-Certainly! To create a README file for the Food Recommendation Chatbot, you can follow these steps:
-
-File Name
-The README file is typically named README.md. The .md extension denotes that the file is formatted in Markdown, which is a lightweight markup language.
-
-Content
-Your README file should contain detailed information about the chatbot project. I'll outline the content based on the details you provided:
-
-markdown
-Copy code
 # Food Recommendation Chatbot
 
 ## Overview
@@ -67,19 +26,19 @@ To run this chatbot, the following Python libraries are required:
    ```bash
    pip install streamlit transformers sentence_transformers pandas numpy pickle nltk geopy ```
 
-1. Download necessary NLTK data:
-2. import nltk
+## Download NLTK Data
+To use the chatbot, you need to download necessary NLTK data. Run the following Python commands:
+```python
+import nltk
 nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('stopwords') ```
 
 
 ## Usage
-Run the Streamlit app with the following command:
-
+To run the Streamlit app, execute the following command in your terminal:
 ```bash
+streamlit run your_script_name.py ```
 
-streamlit run your_script_name.py```
-Then, interact with the chatbot through the Streamlit web interface.
 
 ## Required Files
 1. business_in_ca.csv: Contains business data for California.
