@@ -38,30 +38,30 @@ nltk.download('stopwords')
 ## Usage
 To run the Streamlit app, execute the following command in your terminal:
 ```bash
-streamlit run your_script_name.py 
+streamlit run your_script_name.py
 
-## Required Files
+Required Files
 1. business_in_ca.csv: Contains business data for California.
 2. yelp_recommendation_model_8.pkl: A pickle file with user and business embeddings.
 
-## Key Functions
-1. clean_text_data(texts): Cleans and processes text data.
-2. haversine(lon1, lat1, lon2, lat2): Calculates distances between two geographical points.
-3. get_recommendations(input_text, user_lat, user_lon): Provides restaurant recommendations.
-4. geocode_address(address): Converts an address into geographical coordinates.
-5. handle_conversation(user_input, user_lat, user_lon): Manages conversation logic and user interactions.
+Key Functions
+* clean_text_data(texts): Cleans and processes text data.
+* haversine(lon1, lat1, lon2, lat2): Calculates distances between two geographical points.
+* get_recommendations(input_text, user_lat, user_lon): Provides restaurant recommendations.
+* geocode_address(address): Converts an address into geographical coordinates.
+* handle_conversation(user_input, user_lat, user_lon): Manages conversation logic and user interactions.
 
 ## Streamlit Components
-1. Chat Input: Where users can type their queries or requests.
-2. Text Input: For users to enter their address for location-specific recommendations.
-3. Chat History: Displays the ongoing conversation.
+* Chat Input: Where users can type their queries or requests.
+* Text Input: For users to enter their address for location-specific recommendations.
+* Chat History: Displays the ongoing conversation.
 
 ## Limitations
-1. The chatbot's recommendations are currently limited to California.
-2. It relies on accurate geocoding for location-based suggestions.
+* The chatbot's recommendations are currently limited to California.
+* It relies on accurate geocoding for location-based suggestions.
 
 
 ## Future Improvements
-1. Expanding the geographical scope of the chatbot.
-2. Implementing more sophisticated NLP models for enhanced user query understanding.
-3. For further assistance or queries, feel free to reach out to the support team or refer to the project documentation.
+* Expanding the geographical scope of the chatbot.
+* Implementing more sophisticated NLP models for enhanced user query understanding.
+* For further assistance or queries, feel free to reach out to the support team or refer to the project documentation.
